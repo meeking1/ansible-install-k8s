@@ -35,6 +35,9 @@
 - name: 移动cri=dockerd二进制文件
   shell: cp -rf {{ tmp_dir }}/cri-dockerd/cri-dockerd /usr/bin
   
+- name: 分发service文件
+  copy: src=cri-docker.service dest=/usr/lib/systemd/system/
+  
 - name: 启动cri-dockerd
   systemd: name=cri-docker state=restarted enabled=yes daemon_reload=yes
 
