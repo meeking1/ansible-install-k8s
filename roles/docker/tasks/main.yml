@@ -40,8 +40,4 @@
   
 - name: 启动cri-dockerd
   systemd: name=cri-docker state=restarted enabled=yes daemon_reload=yes
-
-- name: 查看状态
-  shell: ps -ef |grep cri-dockerd
-  register: cri-dockerd 
-- debug: var=cri-dockerd.stdout_lines
+  
