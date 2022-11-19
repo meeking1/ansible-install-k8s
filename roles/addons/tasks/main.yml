@@ -29,8 +29,7 @@
   ignore_errors: yes
   shell: |
          web='https://NodeIP:30001'
-         token=$(kubectl describe secrets -n kubernetes-dashboard \
-         $(kubectl get secret -n kubernetes-dashboard | awk '/dashboard-admin/{print $1}') |awk '/^token/{print $2}')
+         token=$(kubectl create token dashboard-admin -n kubernetes-dashboard)
          echo "访问地址--->$web"
          echo "令牌内容--->$token" 
   register: ui
