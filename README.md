@@ -1,4 +1,4 @@
-# Kubernetes v1.22/v1.23 企业级高可用集群自动部署（离线版）
+# Kubernetes v1.25 企业级高可用集群自动部署（离线版）
 >### 注：确保所有节点系统时间一致
 >### 操作系统要求：CentOS7.x_x64
 
@@ -18,8 +18,8 @@
 
 下载准备好软件包（包含所有涉及文件和镜像，比较大），解压到/root目录：
 
-云盘链接：https://pan.baidu.com/s/1Pai0OkIskcS0wr37byNk0Q
-提取码：1234 
+链接：https://pan.baidu.com/s/1UXh-SfZ1JAXmDUHTOLaITg 
+提取码：1pqx 
 ```
 # tar zxf binary_pkg.tar.gz
 ```
