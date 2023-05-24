@@ -18,8 +18,10 @@
 
 下载准备好软件包（包含所有涉及文件和镜像，比较大），解压到/root目录：
 
-链接：https://pan.baidu.com/s/1UXh-SfZ1JAXmDUHTOLaITg 
-提取码：1pqx 
+
+https://www.aliyundrive.com/s/fZyJEyQXAWW
+提取码: 28mz
+
 ```
 # tar zxf binary_pkg.tar.gz
 ```
